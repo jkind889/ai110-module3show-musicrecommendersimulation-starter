@@ -29,6 +29,9 @@ Some prompts to answer:
 
 You can include a simple diagram or bullet list if helpful.
 
+To my knowledge, real world recommendations work based on user activity, ie finding similar matches based off what a user clicked on, Song and UserProfile will use genre,mood, favorite genre, energy
+
+
 ---
 
 ## Getting Started
