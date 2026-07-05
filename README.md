@@ -31,7 +31,13 @@ You can include a simple diagram or bullet list if helpful.
 
 To my knowledge, real world recommendations work based on user activity, ie finding similar matches based off what a user clicked on, Song and UserProfile will use genre,mood, favorite genre, energy
 
+Genre dominant,
+Genre match 40 pts
+Mood match 25 pts
+Energy Closeness 25pts
+Acoustic math 10 pts
 
+This system is intentionally designed to over prioritize genre
 ---
 
 ## Getting Started
