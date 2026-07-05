@@ -47,7 +47,7 @@ This system is intentionally designed to over prioritize genre
 1. Create a virtual environment (optional but recommended):
 
    ```bash
-   python -m venv .venv
+   python3 -m venv .venv
    source .venv/bin/activate      # Mac or Linux
    .venv\Scripts\activate         # Windows
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 3. Run the app:
 
 ```bash
-python -m src.main
+python3 -m src.main
 ```
 
 ### Running Tests
@@ -80,12 +80,22 @@ You can add more tests in `tests/test_recommender.py`.
 Paste a sample of your recommender's output here as a text block so a reader can see what it produces:
 
 ```
-# e.g.:
-# User profile: genre=indie, mood=chill, energy=low
-# Recommendations:
-#   1. ...
-#   2. ...
-#   3. ...
+Top recommendations:
+
+Coffee Shop Stories - Score: 73.25
+Because: Matches your favorite genre (jazz); Energy level close to your target (0.37); Acoustic sound matches your preference
+
+Harvest Moon Waltz - Score: 35.00
+Because: Energy level close to your target (0.30); Acoustic sound matches your preference
+
+Spacewalk Thoughts - Score: 34.50
+Because: Energy level close to your target (0.28); Acoustic sound matches your preference
+
+Library Rain - Score: 33.75
+Because: Energy level close to your target (0.35); Acoustic sound matches your preference
+
+Weeping Willow - Score: 33.75
+Because: Energy level close to your target (0.25); Acoustic sound matches your preference
 ```
 
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or demo video link here -->
